@@ -1,0 +1,630 @@
+subject_id,session_id,signal,check_name,severity,detected,metric_value,threshold,message
+S01,S01,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S01,S01,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S01,S01,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+S01,S01,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S01,S01,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S01,S01,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S01,S01,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+S01,S01,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S01,S01,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S01,S01,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S01,S01,ACC,flatline,REVIEW,False,2.91,30,No prolonged flatline detected
+S01,S01,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S01,S01,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S01,S01,SESSION,complete_coverage,REVIEW,False,99.55,95.0,Complete signal coverage meets threshold
+S01,S01,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S01,S01,SESSION,end_time_alignment,REVIEW,False,0.28,15.0,Sensor timing alignment is acceptable
+S01,S01,SESSION,split_session,REVIEW,False,S01,Single recording,Session is stored as one recording
+S02,S02,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S02,S02,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S02,S02,HR,flatline,REVIEW,False,8.0,60,No prolonged flatline detected
+S02,S02,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S02,S02,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S02,S02,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S02,S02,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+S02,S02,EDA,repeated_recording,REVIEW,True,1548.0,0,Large repeated recording segment detected
+S02,S02,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S02,S02,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S02,S02,ACC,flatline,REVIEW,False,2.41,30,No prolonged flatline detected
+S02,S02,ACC,repeated_recording,REVIEW,True,1548.19,0,Large repeated recording segment detected
+S02,S02,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S02,S02,SESSION,complete_coverage,REVIEW,False,99.39,95.0,Complete signal coverage meets threshold
+S02,S02,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S02,S02,SESSION,end_time_alignment,REVIEW,False,9.34,15.0,Sensor timing alignment is acceptable
+S02,S02,SESSION,split_session,REVIEW,False,S02,Single recording,Session is stored as one recording
+S03,S03,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S03,S03,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S03,S03,HR,flatline,REVIEW,False,4.0,60,No prolonged flatline detected
+S03,S03,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S03,S03,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S03,S03,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S03,S03,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+S03,S03,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S03,S03,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S03,S03,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S03,S03,ACC,flatline,REVIEW,False,11.53,30,No prolonged flatline detected
+S03,S03,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S03,S03,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S03,S03,SESSION,complete_coverage,REVIEW,False,99.37,95.0,Complete signal coverage meets threshold
+S03,S03,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S03,S03,SESSION,end_time_alignment,REVIEW,False,0.84,15.0,Sensor timing alignment is acceptable
+S03,S03,SESSION,split_session,REVIEW,False,S03,Single recording,Session is stored as one recording
+S04,S04,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S04,S04,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S04,S04,HR,flatline,REVIEW,False,5.0,60,No prolonged flatline detected
+S04,S04,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S04,S04,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S04,S04,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S04,S04,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+S04,S04,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S04,S04,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S04,S04,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S04,S04,ACC,flatline,REVIEW,False,1.94,30,No prolonged flatline detected
+S04,S04,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S04,S04,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S04,S04,SESSION,complete_coverage,REVIEW,False,99.37,95.0,Complete signal coverage meets threshold
+S04,S04,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S04,S04,SESSION,end_time_alignment,REVIEW,False,0.78,15.0,Sensor timing alignment is acceptable
+S04,S04,SESSION,split_session,REVIEW,False,S04,Single recording,Session is stored as one recording
+S05,S05,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S05,S05,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S05,S05,HR,flatline,REVIEW,False,4.0,60,No prolonged flatline detected
+S05,S05,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S05,S05,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S05,S05,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S05,S05,EDA,flatline,REVIEW,False,0.75,60,No prolonged flatline detected
+S05,S05,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S05,S05,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S05,S05,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S05,S05,ACC,flatline,REVIEW,False,3.97,30,No prolonged flatline detected
+S05,S05,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S05,S05,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S05,S05,SESSION,complete_coverage,REVIEW,False,99.37,95.0,Complete signal coverage meets threshold
+S05,S05,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S05,S05,SESSION,end_time_alignment,REVIEW,False,0.97,15.0,Sensor timing alignment is acceptable
+S05,S05,SESSION,split_session,REVIEW,False,S05,Single recording,Session is stored as one recording
+S06,S06,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S06,S06,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S06,S06,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+S06,S06,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S06,S06,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S06,S06,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S06,S06,EDA,flatline,REVIEW,False,0.75,60,No prolonged flatline detected
+S06,S06,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S06,S06,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S06,S06,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S06,S06,ACC,flatline,REVIEW,False,2.31,30,No prolonged flatline detected
+S06,S06,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S06,S06,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S06,S06,SESSION,complete_coverage,REVIEW,False,99.24,95.0,Complete signal coverage meets threshold
+S06,S06,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S06,S06,SESSION,end_time_alignment,REVIEW,False,0.97,15.0,Sensor timing alignment is acceptable
+S06,S06,SESSION,split_session,REVIEW,False,S06,Single recording,Session is stored as one recording
+S07,S07,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S07,S07,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S07,S07,HR,flatline,REVIEW,False,4.0,60,No prolonged flatline detected
+S07,S07,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S07,S07,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S07,S07,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S07,S07,EDA,flatline,REVIEW,False,1.25,60,No prolonged flatline detected
+S07,S07,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S07,S07,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S07,S07,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S07,S07,ACC,flatline,REVIEW,False,1.28,30,No prolonged flatline detected
+S07,S07,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S07,S07,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S07,S07,SESSION,complete_coverage,REVIEW,False,99.23,95.0,Complete signal coverage meets threshold
+S07,S07,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S07,S07,SESSION,end_time_alignment,REVIEW,False,0.78,15.0,Sensor timing alignment is acceptable
+S07,S07,SESSION,split_session,REVIEW,False,S07,Single recording,Session is stored as one recording
+S08,S08,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S08,S08,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S08,S08,HR,flatline,REVIEW,False,7.0,60,No prolonged flatline detected
+S08,S08,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S08,S08,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S08,S08,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S08,S08,EDA,flatline,REVIEW,False,1.25,60,No prolonged flatline detected
+S08,S08,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S08,S08,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S08,S08,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S08,S08,ACC,flatline,REVIEW,False,5.69,30,No prolonged flatline detected
+S08,S08,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S08,S08,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S08,S08,SESSION,complete_coverage,REVIEW,False,99.23,95.0,Complete signal coverage meets threshold
+S08,S08,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S08,S08,SESSION,end_time_alignment,REVIEW,False,0.97,15.0,Sensor timing alignment is acceptable
+S08,S08,SESSION,split_session,REVIEW,False,S08,Single recording,Session is stored as one recording
+S09,S09,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S09,S09,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S09,S09,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+S09,S09,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S09,S09,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S09,S09,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S09,S09,EDA,flatline,REVIEW,False,1.5,60,No prolonged flatline detected
+S09,S09,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S09,S09,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S09,S09,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S09,S09,ACC,flatline,REVIEW,False,3.22,30,No prolonged flatline detected
+S09,S09,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S09,S09,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S09,S09,SESSION,complete_coverage,REVIEW,False,99.24,95.0,Complete signal coverage meets threshold
+S09,S09,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S09,S09,SESSION,end_time_alignment,REVIEW,False,1.34,15.0,Sensor timing alignment is acceptable
+S09,S09,SESSION,split_session,REVIEW,False,S09,Single recording,Session is stored as one recording
+S10,S10,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S10,S10,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S10,S10,HR,flatline,REVIEW,False,12.0,60,No prolonged flatline detected
+S10,S10,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S10,S10,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S10,S10,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S10,S10,EDA,flatline,REVIEW,False,0.75,60,No prolonged flatline detected
+S10,S10,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S10,S10,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S10,S10,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S10,S10,ACC,flatline,REVIEW,False,3.72,30,No prolonged flatline detected
+S10,S10,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S10,S10,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S10,S10,SESSION,complete_coverage,REVIEW,False,99.34,95.0,Complete signal coverage meets threshold
+S10,S10,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S10,S10,SESSION,end_time_alignment,REVIEW,False,0.97,15.0,Sensor timing alignment is acceptable
+S10,S10,SESSION,split_session,REVIEW,False,S10,Single recording,Session is stored as one recording
+S11,S11,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S11,S11,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S11,S11,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+S11,S11,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S11,S11,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S11,S11,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S11,S11,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+S11,S11,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S11,S11,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S11,S11,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S11,S11,ACC,flatline,REVIEW,False,5.12,30,No prolonged flatline detected
+S11,S11,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S11,S11,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S11,S11,SESSION,complete_coverage,REVIEW,False,99.22,95.0,Complete signal coverage meets threshold
+S11,S11,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S11,S11,SESSION,end_time_alignment,REVIEW,False,0.41,15.0,Sensor timing alignment is acceptable
+S11,S11,SESSION,split_session,REVIEW,False,S11,Single recording,Session is stored as one recording
+S12,S12,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S12,S12,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S12,S12,HR,flatline,REVIEW,False,8.0,60,No prolonged flatline detected
+S12,S12,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S12,S12,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S12,S12,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S12,S12,EDA,flatline,REVIEW,False,0.75,60,No prolonged flatline detected
+S12,S12,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S12,S12,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S12,S12,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S12,S12,ACC,flatline,REVIEW,False,4.84,30,No prolonged flatline detected
+S12,S12,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S12,S12,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S12,S12,SESSION,complete_coverage,REVIEW,False,99.38,95.0,Complete signal coverage meets threshold
+S12,S12,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S12,S12,SESSION,end_time_alignment,REVIEW,False,0.28,15.0,Sensor timing alignment is acceptable
+S12,S12,SESSION,split_session,REVIEW,False,S12,Single recording,Session is stored as one recording
+S13,S13,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S13,S13,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S13,S13,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+S13,S13,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S13,S13,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S13,S13,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S13,S13,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+S13,S13,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S13,S13,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S13,S13,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S13,S13,ACC,flatline,REVIEW,False,2.44,30,No prolonged flatline detected
+S13,S13,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S13,S13,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S13,S13,SESSION,complete_coverage,REVIEW,False,99.32,95.0,Complete signal coverage meets threshold
+S13,S13,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S13,S13,SESSION,end_time_alignment,REVIEW,False,0.59,15.0,Sensor timing alignment is acceptable
+S13,S13,SESSION,split_session,REVIEW,False,S13,Single recording,Session is stored as one recording
+S14,S14,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S14,S14,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S14,S14,HR,flatline,REVIEW,False,9.0,60,No prolonged flatline detected
+S14,S14,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S14,S14,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S14,S14,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S14,S14,EDA,flatline,REVIEW,False,1.25,60,No prolonged flatline detected
+S14,S14,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S14,S14,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S14,S14,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S14,S14,ACC,flatline,REVIEW,False,1.78,30,No prolonged flatline detected
+S14,S14,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S14,S14,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S14,S14,SESSION,complete_coverage,REVIEW,False,99.41,95.0,Complete signal coverage meets threshold
+S14,S14,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S14,S14,SESSION,end_time_alignment,REVIEW,False,0.75,15.0,Sensor timing alignment is acceptable
+S14,S14,SESSION,split_session,REVIEW,False,S14,Single recording,Session is stored as one recording
+S15,S15,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S15,S15,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S15,S15,HR,flatline,REVIEW,False,7.0,60,No prolonged flatline detected
+S15,S15,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S15,S15,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S15,S15,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S15,S15,EDA,flatline,REVIEW,False,1.25,60,No prolonged flatline detected
+S15,S15,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S15,S15,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S15,S15,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S15,S15,ACC,flatline,REVIEW,False,4.59,30,No prolonged flatline detected
+S15,S15,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S15,S15,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S15,S15,SESSION,complete_coverage,REVIEW,False,99.39,95.0,Complete signal coverage meets threshold
+S15,S15,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S15,S15,SESSION,end_time_alignment,REVIEW,False,0.28,15.0,Sensor timing alignment is acceptable
+S15,S15,SESSION,split_session,REVIEW,False,S15,Single recording,Session is stored as one recording
+S16,S16,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S16,S16,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S16,S16,HR,flatline,REVIEW,False,4.0,60,No prolonged flatline detected
+S16,S16,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S16,S16,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S16,S16,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S16,S16,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+S16,S16,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S16,S16,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S16,S16,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S16,S16,ACC,flatline,REVIEW,False,2.75,30,No prolonged flatline detected
+S16,S16,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S16,S16,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S16,S16,SESSION,complete_coverage,REVIEW,False,99.4,95.0,Complete signal coverage meets threshold
+S16,S16,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S16,S16,SESSION,end_time_alignment,REVIEW,False,0.28,15.0,Sensor timing alignment is acceptable
+S16,S16,SESSION,split_session,REVIEW,False,S16,Single recording,Session is stored as one recording
+S17,S17,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S17,S17,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S17,S17,HR,flatline,REVIEW,False,7.0,60,No prolonged flatline detected
+S17,S17,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S17,S17,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S17,S17,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S17,S17,EDA,flatline,REVIEW,False,0.75,60,No prolonged flatline detected
+S17,S17,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S17,S17,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S17,S17,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S17,S17,ACC,flatline,REVIEW,False,1.91,30,No prolonged flatline detected
+S17,S17,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S17,S17,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S17,S17,SESSION,complete_coverage,REVIEW,False,99.38,95.0,Complete signal coverage meets threshold
+S17,S17,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S17,S17,SESSION,end_time_alignment,REVIEW,False,0.78,15.0,Sensor timing alignment is acceptable
+S17,S17,SESSION,split_session,REVIEW,False,S17,Single recording,Session is stored as one recording
+S18,S18,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+S18,S18,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S18,S18,HR,flatline,REVIEW,False,5.0,60,No prolonged flatline detected
+S18,S18,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S18,S18,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+S18,S18,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S18,S18,EDA,flatline,REVIEW,False,0.75,60,No prolonged flatline detected
+S18,S18,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S18,S18,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+S18,S18,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+S18,S18,ACC,flatline,REVIEW,False,3.44,30,No prolonged flatline detected
+S18,S18,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+S18,S18,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+S18,S18,SESSION,complete_coverage,REVIEW,False,99.39,95.0,Complete signal coverage meets threshold
+S18,S18,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+S18,S18,SESSION,end_time_alignment,REVIEW,False,0.84,15.0,Sensor timing alignment is acceptable
+S18,S18,SESSION,split_session,REVIEW,False,S18,Single recording,Session is stored as one recording
+f01,f01,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f01,f01,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f01,f01,HR,flatline,REVIEW,False,7.0,60,No prolonged flatline detected
+f01,f01,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f01,f01,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f01,f01,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f01,f01,EDA,flatline,REVIEW,False,2.0,60,No prolonged flatline detected
+f01,f01,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f01,f01,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f01,f01,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f01,f01,ACC,flatline,REVIEW,False,13.31,30,No prolonged flatline detected
+f01,f01,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f01,f01,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f01,f01,SESSION,complete_coverage,REVIEW,False,99.66,95.0,Complete signal coverage meets threshold
+f01,f01,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f01,f01,SESSION,end_time_alignment,REVIEW,False,0.41,15.0,Sensor timing alignment is acceptable
+f01,f01,SESSION,split_session,REVIEW,False,f01,Single recording,Session is stored as one recording
+f02,f02,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f02,f02,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f02,f02,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+f02,f02,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f02,f02,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f02,f02,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f02,f02,EDA,flatline,REVIEW,False,1.5,60,No prolonged flatline detected
+f02,f02,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f02,f02,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f02,f02,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f02,f02,ACC,flatline,REVIEW,False,21.0,30,No prolonged flatline detected
+f02,f02,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f02,f02,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f02,f02,SESSION,complete_coverage,REVIEW,False,99.66,95.0,Complete signal coverage meets threshold
+f02,f02,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f02,f02,SESSION,end_time_alignment,REVIEW,False,0.75,15.0,Sensor timing alignment is acceptable
+f02,f02,SESSION,split_session,REVIEW,False,f02,Single recording,Session is stored as one recording
+f03,f03,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f03,f03,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f03,f03,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+f03,f03,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f03,f03,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f03,f03,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f03,f03,EDA,flatline,REVIEW,False,0.75,60,No prolonged flatline detected
+f03,f03,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f03,f03,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f03,f03,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f03,f03,ACC,flatline,REVIEW,False,8.38,30,No prolonged flatline detected
+f03,f03,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f03,f03,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f03,f03,SESSION,complete_coverage,REVIEW,False,99.69,95.0,Complete signal coverage meets threshold
+f03,f03,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f03,f03,SESSION,end_time_alignment,REVIEW,False,1.75,15.0,Sensor timing alignment is acceptable
+f03,f03,SESSION,split_session,REVIEW,False,f03,Single recording,Session is stored as one recording
+f04,f04,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f04,f04,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f04,f04,HR,flatline,REVIEW,False,8.0,60,No prolonged flatline detected
+f04,f04,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f04,f04,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f04,f04,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f04,f04,EDA,flatline,REVIEW,False,3.75,60,No prolonged flatline detected
+f04,f04,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f04,f04,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f04,f04,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f04,f04,ACC,flatline,REVIEW,False,24.03,30,No prolonged flatline detected
+f04,f04,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f04,f04,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f04,f04,SESSION,complete_coverage,REVIEW,False,99.7,95.0,Complete signal coverage meets threshold
+f04,f04,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f04,f04,SESSION,end_time_alignment,REVIEW,False,1.75,15.0,Sensor timing alignment is acceptable
+f04,f04,SESSION,split_session,REVIEW,False,f04,Single recording,Session is stored as one recording
+f05,f05,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f05,f05,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f05,f05,HR,flatline,REVIEW,False,14.0,60,No prolonged flatline detected
+f05,f05,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f05,f05,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f05,f05,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f05,f05,EDA,flatline,REVIEW,False,2.0,60,No prolonged flatline detected
+f05,f05,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f05,f05,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f05,f05,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f05,f05,ACC,flatline,REVIEW,True,64.28,30,Prolonged unchanged signal detected
+f05,f05,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f05,f05,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f05,f05,SESSION,complete_coverage,REVIEW,False,99.78,95.0,Complete signal coverage meets threshold
+f05,f05,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f05,f05,SESSION,end_time_alignment,REVIEW,False,0.75,15.0,Sensor timing alignment is acceptable
+f05,f05,SESSION,split_session,REVIEW,False,f05,Single recording,Session is stored as one recording
+f06,f06,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f06,f06,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f06,f06,HR,flatline,REVIEW,False,7.0,60,No prolonged flatline detected
+f06,f06,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f06,f06,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f06,f06,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f06,f06,EDA,flatline,REVIEW,False,2.25,60,No prolonged flatline detected
+f06,f06,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f06,f06,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f06,f06,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f06,f06,ACC,flatline,REVIEW,False,3.62,30,No prolonged flatline detected
+f06,f06,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f06,f06,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f06,f06,SESSION,complete_coverage,REVIEW,False,99.68,95.0,Complete signal coverage meets threshold
+f06,f06,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f06,f06,SESSION,end_time_alignment,REVIEW,False,0.25,15.0,Sensor timing alignment is acceptable
+f06,f06,SESSION,split_session,REVIEW,False,f06,Single recording,Session is stored as one recording
+f07,f07,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f07,f07,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f07,f07,HR,flatline,REVIEW,False,4.0,60,No prolonged flatline detected
+f07,f07,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f07,f07,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f07,f07,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f07,f07,EDA,flatline,REVIEW,False,3.5,60,No prolonged flatline detected
+f07,f07,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f07,f07,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f07,f07,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f07,f07,ACC,flatline,REVIEW,False,25.38,30,No prolonged flatline detected
+f07,f07,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f07,f07,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f07,f07,SESSION,complete_coverage,REVIEW,False,99.65,95.0,Complete signal coverage meets threshold
+f07,f07,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f07,f07,SESSION,end_time_alignment,REVIEW,False,2.09,15.0,Sensor timing alignment is acceptable
+f07,f07,SESSION,split_session,REVIEW,False,f07,Single recording,Session is stored as one recording
+f08,f08,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f08,f08,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f08,f08,HR,flatline,REVIEW,False,15.0,60,No prolonged flatline detected
+f08,f08,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f08,f08,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f08,f08,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f08,f08,EDA,flatline,REVIEW,False,2.5,60,No prolonged flatline detected
+f08,f08,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f08,f08,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f08,f08,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f08,f08,ACC,flatline,REVIEW,False,26.94,30,No prolonged flatline detected
+f08,f08,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f08,f08,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f08,f08,SESSION,complete_coverage,REVIEW,False,99.65,95.0,Complete signal coverage meets threshold
+f08,f08,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f08,f08,SESSION,end_time_alignment,REVIEW,False,1.25,15.0,Sensor timing alignment is acceptable
+f08,f08,SESSION,split_session,REVIEW,False,f08,Single recording,Session is stored as one recording
+f09,f09,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f09,f09,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f09,f09,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+f09,f09,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f09,f09,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f09,f09,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f09,f09,EDA,flatline,REVIEW,False,2.25,60,No prolonged flatline detected
+f09,f09,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f09,f09,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f09,f09,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f09,f09,ACC,flatline,REVIEW,True,85.78,30,Prolonged unchanged signal detected
+f09,f09,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f09,f09,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f09,f09,SESSION,complete_coverage,REVIEW,False,99.66,95.0,Complete signal coverage meets threshold
+f09,f09,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f09,f09,SESSION,end_time_alignment,REVIEW,False,1.16,15.0,Sensor timing alignment is acceptable
+f09,f09,SESSION,split_session,REVIEW,False,f09,Single recording,Session is stored as one recording
+f10,f10,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f10,f10,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f10,f10,HR,flatline,REVIEW,False,4.0,60,No prolonged flatline detected
+f10,f10,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f10,f10,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f10,f10,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f10,f10,EDA,flatline,REVIEW,False,1.75,60,No prolonged flatline detected
+f10,f10,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f10,f10,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f10,f10,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f10,f10,ACC,flatline,REVIEW,False,11.22,30,No prolonged flatline detected
+f10,f10,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f10,f10,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f10,f10,SESSION,complete_coverage,REVIEW,False,99.56,95.0,Complete signal coverage meets threshold
+f10,f10,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f10,f10,SESSION,end_time_alignment,REVIEW,False,2.25,15.0,Sensor timing alignment is acceptable
+f10,f10,SESSION,split_session,REVIEW,False,f10,Single recording,Session is stored as one recording
+f11,f11,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f11,f11,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f11,f11,HR,flatline,REVIEW,False,17.0,60,No prolonged flatline detected
+f11,f11,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f11,f11,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f11,f11,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f11,f11,EDA,flatline,REVIEW,False,1.0,60,No prolonged flatline detected
+f11,f11,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f11,f11,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f11,f11,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f11,f11,ACC,flatline,REVIEW,False,3.69,30,No prolonged flatline detected
+f11,f11,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f11,f11,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f11,f11,SESSION,complete_coverage,REVIEW,False,99.65,95.0,Complete signal coverage meets threshold
+f11,f11,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f11,f11,SESSION,end_time_alignment,REVIEW,False,1.34,15.0,Sensor timing alignment is acceptable
+f11,f11,SESSION,split_session,REVIEW,False,f11,Single recording,Session is stored as one recording
+f12,f12,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f12,f12,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f12,f12,HR,flatline,REVIEW,False,12.0,60,No prolonged flatline detected
+f12,f12,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f12,f12,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f12,f12,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f12,f12,EDA,flatline,REVIEW,False,2.75,60,No prolonged flatline detected
+f12,f12,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f12,f12,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f12,f12,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f12,f12,ACC,flatline,REVIEW,False,11.69,30,No prolonged flatline detected
+f12,f12,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f12,f12,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f12,f12,SESSION,complete_coverage,REVIEW,False,99.77,95.0,Complete signal coverage meets threshold
+f12,f12,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f12,f12,SESSION,end_time_alignment,REVIEW,False,1.75,15.0,Sensor timing alignment is acceptable
+f12,f12,SESSION,split_session,REVIEW,False,f12,Single recording,Session is stored as one recording
+f13,f13,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f13,f13,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f13,f13,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+f13,f13,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f13,f13,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f13,f13,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f13,f13,EDA,flatline,REVIEW,False,12.75,60,No prolonged flatline detected
+f13,f13,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f13,f13,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f13,f13,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f13,f13,ACC,flatline,REVIEW,False,9.28,30,No prolonged flatline detected
+f13,f13,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f13,f13,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f13,f13,SESSION,complete_coverage,REVIEW,False,99.64,95.0,Complete signal coverage meets threshold
+f13,f13,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f13,f13,SESSION,end_time_alignment,REVIEW,False,4.25,15.0,Sensor timing alignment is acceptable
+f13,f13,SESSION,split_session,REVIEW,False,f13,Single recording,Session is stored as one recording
+f14,f14_a,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f14,f14_a,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f14,f14_a,HR,flatline,REVIEW,False,3.0,60,No prolonged flatline detected
+f14,f14_a,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f14,f14_a,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f14,f14_a,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f14,f14_a,EDA,flatline,REVIEW,False,1.25,60,No prolonged flatline detected
+f14,f14_a,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f14,f14_a,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f14,f14_a,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f14,f14_a,ACC,flatline,REVIEW,False,0.97,30,No prolonged flatline detected
+f14,f14_a,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f14,f14_a,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f14,f14_a,SESSION,complete_coverage,REVIEW,False,98.58,95.0,Complete signal coverage meets threshold
+f14,f14_a,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f14,f14_a,SESSION,end_time_alignment,REVIEW,False,0.66,15.0,Sensor timing alignment is acceptable
+f14,f14_a,SESSION,split_session,REVIEW,True,f14_a,Single recording,Session appears to be one segment of a split recording
+f14,f14_b,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f14,f14_b,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f14,f14_b,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+f14,f14_b,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f14,f14_b,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f14,f14_b,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f14,f14_b,EDA,flatline,REVIEW,False,2.25,60,No prolonged flatline detected
+f14,f14_b,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f14,f14_b,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f14,f14_b,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f14,f14_b,ACC,flatline,REVIEW,False,18.84,30,No prolonged flatline detected
+f14,f14_b,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f14,f14_b,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f14,f14_b,SESSION,complete_coverage,REVIEW,False,99.45,95.0,Complete signal coverage meets threshold
+f14,f14_b,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f14,f14_b,SESSION,end_time_alignment,REVIEW,False,2.25,15.0,Sensor timing alignment is acceptable
+f14,f14_b,SESSION,split_session,REVIEW,True,f14_b,Single recording,Session appears to be one segment of a split recording
+f15,f15,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f15,f15,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f15,f15,HR,flatline,REVIEW,False,7.0,60,No prolonged flatline detected
+f15,f15,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f15,f15,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f15,f15,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f15,f15,EDA,flatline,REVIEW,False,1.25,60,No prolonged flatline detected
+f15,f15,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f15,f15,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f15,f15,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f15,f15,ACC,flatline,REVIEW,False,8.31,30,No prolonged flatline detected
+f15,f15,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f15,f15,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f15,f15,SESSION,complete_coverage,REVIEW,False,99.74,95.0,Complete signal coverage meets threshold
+f15,f15,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f15,f15,SESSION,end_time_alignment,REVIEW,False,1.03,15.0,Sensor timing alignment is acceptable
+f15,f15,SESSION,split_session,REVIEW,False,f15,Single recording,Session is stored as one recording
+f16,f16,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f16,f16,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f16,f16,HR,flatline,REVIEW,False,5.0,60,No prolonged flatline detected
+f16,f16,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f16,f16,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f16,f16,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f16,f16,EDA,flatline,REVIEW,False,1.75,60,No prolonged flatline detected
+f16,f16,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f16,f16,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f16,f16,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f16,f16,ACC,flatline,REVIEW,False,6.66,30,No prolonged flatline detected
+f16,f16,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f16,f16,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f16,f16,SESSION,complete_coverage,REVIEW,False,99.63,95.0,Complete signal coverage meets threshold
+f16,f16,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f16,f16,SESSION,end_time_alignment,REVIEW,False,1.91,15.0,Sensor timing alignment is acceptable
+f16,f16,SESSION,split_session,REVIEW,False,f16,Single recording,Session is stored as one recording
+f17,f17,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f17,f17,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f17,f17,HR,flatline,REVIEW,False,8.0,60,No prolonged flatline detected
+f17,f17,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f17,f17,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f17,f17,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f17,f17,EDA,flatline,REVIEW,False,2.5,60,No prolonged flatline detected
+f17,f17,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f17,f17,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f17,f17,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f17,f17,ACC,flatline,REVIEW,False,11.88,30,No prolonged flatline detected
+f17,f17,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f17,f17,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f17,f17,SESSION,complete_coverage,REVIEW,False,99.65,95.0,Complete signal coverage meets threshold
+f17,f17,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f17,f17,SESSION,end_time_alignment,REVIEW,False,2.66,15.0,Sensor timing alignment is acceptable
+f17,f17,SESSION,split_session,REVIEW,False,f17,Single recording,Session is stored as one recording
+f18,f18,HR,sampling_rate,FAIL,False,1.0,1.0,Sampling rate validated
+f18,f18,HR,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f18,f18,HR,flatline,REVIEW,False,6.0,60,No prolonged flatline detected
+f18,f18,HR,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f18,f18,EDA,sampling_rate,FAIL,False,4.0,4.0,Sampling rate validated
+f18,f18,EDA,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f18,f18,EDA,flatline,REVIEW,False,3.25,60,No prolonged flatline detected
+f18,f18,EDA,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f18,f18,ACC,sampling_rate,FAIL,False,32.0,32.0,Sampling rate validated
+f18,f18,ACC,invalid_values,FAIL,False,0,0,All sensor values are numeric
+f18,f18,ACC,flatline,REVIEW,False,10.44,30,No prolonged flatline detected
+f18,f18,ACC,repeated_recording,REVIEW,False,0.0,0,No large repeated recording detected
+f18,f18,SESSION,missing_signals,FAIL,False,None,No missing signals,All required signals received
+f18,f18,SESSION,complete_coverage,REVIEW,False,99.55,95.0,Complete signal coverage meets threshold
+f18,f18,SESSION,start_time_alignment,REVIEW,False,10.0,15.0,Sensor timing alignment is acceptable
+f18,f18,SESSION,end_time_alignment,REVIEW,False,3.59,15.0,Sensor timing alignment is acceptable
+f18,f18,SESSION,split_session,REVIEW,False,f18,Single recording,Session is stored as one recording
