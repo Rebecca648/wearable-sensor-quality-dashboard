@@ -6,7 +6,7 @@ This is a portfolio demonstration using an open research dataset. It is not a cl
 
 ## Live demo
 
-Deployment link: _to be added after Streamlit Community Cloud deployment_
+Deployment link: https://wearable-sensor-quality-dashboard-5a6upnwcnsmkmwdg6vkyjf.streamlit.app/
 
 ## Project objectives
 
